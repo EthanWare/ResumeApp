@@ -9,13 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".information_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".information_activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".information_activity">
+            </meta-data>
+        </activity>
+
+        <activity android:name=".SkillsActivity"
+            android:label="Skills"
+            android:parentActivityName=".information_activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".information_activity">
+            </meta-data>
+        </activity>
+
+        <activity android:name=".DetailsActivity"
+            android:label="Details"
+            android:parentActivityName=".SkillsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailsActivity">
+            </meta-data>
+        </activity>
+
     </application>
 
 </manifest>

@@ -28,7 +28,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:onClick="previousImage"
         android:text="Previous"
         android:visibility="invisible"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -40,7 +39,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:onClick="nextImage"
         android:text="Next"
         app:layout_constraintLeft_toRightOf="@+id/previous"
         app:layout_constraintRight_toRightOf="parent"
@@ -67,5 +65,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/previous"
         app:layout_constraintVertical_bias="0.245" />
+
+    <Button
+        android:id="@+id/skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Skills"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bio" />
 
 </android.support.constraint.ConstraintLayout>

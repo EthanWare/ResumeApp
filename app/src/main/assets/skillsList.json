@@ -1,0 +1,21 @@
+[{
+	{
+		name : "Programming";
+		details : "Java, Android, C, C++, Linux Command Line";
+	}
+	{
+		name : "SQL Database";
+		details : "Basic SQL table design, stored procedures, and triggers";
+	}
+	{
+		name : "Leadership/Communication";
+		details : "Built strong leadership and communication skills through past experience as a Residential Assistant at Northern Kentucky University";
+	}
+	{
+		name : "Problem Solving";
+		details : "Strong problem solving skills";
+	}
+}]
+
+pass string in intent
+text.addText(name)
